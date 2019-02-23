@@ -1,0 +1,29 @@
+Python List Methods
+append() - Add an element to the end of the list
+extend() - Add all elements of a list to the another list
+insert() - Insert an item at the defined index
+remove() - Removes an item from the list
+pop() - Removes and returns an element at the given index
+clear() - Removes all items from the list
+index() - Returns the index of the first matched item
+count() - Returns the count of number of items passed as an argument
+sort() - Sort items in a list in ascending order
+reverse() - Reverse the order of items in the list
+copy() - Returns a shallow copy of the list
+
+
+Common Python String Methods
+There are numerous methods available with the string object. The format() method that we mentioned above is one of them. Some of the commonly used methods are lower(), upper(), join(), split(), find(), replace() etc. Here is a complete list of all the built-in methods to work with strings in Python.
+
+>>> "PrOgRaMiZ".lower()
+'programiz'
+>>> "PrOgRaMiZ".upper()
+'PROGRAMIZ'
+>>> "This will split all words into a list".split()
+['This', 'will', 'split', 'all', 'words', 'into', 'a', 'list']
+>>> ' '.join(['This', 'will', 'join', 'all', 'words', 'into', 'a', 'string'])
+'This will join all words into a string'
+>>> 'Happy New Year'.find('ew')
+7
+>>> 'Happy New Year'.replace('Happy','Brilliant')
+'Brilliant New Year'lof
